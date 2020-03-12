@@ -1,0 +1,109 @@
+body {
+    background-color: sandybrown;
+    color: black;
+}
+
+header{
+    background-image: url(../images/Books.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:200px;
+    color:navajowhite;
+    border:1px solid blue;
+    
+}
+
+nav {
+    
+    background-color: brown;
+    padding: 5px
+}
+nav ul{
+    
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+    margin: 5px;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: saddlebrown;
+    display: inline;
+    padding: 20px;
+    margin: 50px;
+    border: solid 2px black;
+    border-radius: 10px;
+    
+        
+}
+nav ul li a{
+    color: black;
+    text-decoration: underline overline wavy sandybrown;
+}
+nav ul li:hover {
+    background-color: sandybrown;
+}
+#content{
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+aside {
+        border:.5px solid yellow;
+    width: 18%;
+    float: right;
+}
+
+aside ul li a {
+    
+    color: blue;
+    text-decoration: none;
+    
+}
+aside ul li{
+    list-style-type: none;
+}
+#bigPic {
+    width: 30%;
+    float: left;
+}
+.col_detail{
+    float: left;
+    padding: 2px;
+}
+footer {
+    clear: both;
+    border: 1px solid orange;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+.menu{
+        list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+ul#menu li{
+       list-style-type: none;
+    display: inline;
+    margin: 5px;   
+}
+
+
+
+#arrow {
+    width: 100;
+    float: right;
+}
